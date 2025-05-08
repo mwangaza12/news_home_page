@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    background-color: hsl(36, 100%, 99%);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: hsl(240, 100%, 5%);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    color: hsl(236, 13%, 42%);
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.hero {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.hero-main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    height: 300px;
+}
+
+.hero-img-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colored-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.block {
+    width: 25%;
+    height: 25%;
+}
+
+.hero-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-title {
+    flex: 1;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: hsl(240, 100%, 5%);
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-description {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: fit-content;
+}
+
+.btn:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new-section {
+    flex: 1;
+}
+
+.new {
+    background-color: hsl(240, 100%, 5%);
+    padding: 2rem;
+    color: hsl(36, 100%, 99%);
+    height: 100%;
+}
+
+.new-title {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.new-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.new-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.new-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.new-item h3 a {
+    color: hsl(36, 100%, 99%);
+    transition: color 0.3s ease;
+}
+
+.new-item h3 a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.new-item p {
+    color: hsl(233, 8%, 79%);
+    font-size: 0.95rem;
+}
+
+/* Top Articles */
+.top-articles {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.article {
+    flex: 1;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.article-img {
+    flex: 0 0 100px;
+    height: 130px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.article-img-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(233, 8%, 79%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(36, 100%, 99%);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 0.5rem;
+}
+
+.article-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.article-title a {
+    color: hsl(240, 100%, 5%);
+    transition: color 0.3s ease;
+}
+
+.article-title a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.article-description {
+    font-size: 0.9rem;
+    color: hsl(236, 13%, 42%);
+}
+
